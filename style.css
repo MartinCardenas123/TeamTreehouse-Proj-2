@@ -1,7 +1,9 @@
+
 * {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
   }
+z
   
   body {
     padding: 5%;
@@ -27,6 +29,7 @@
     text-transform: uppercase;
     padding: 15px;
     font-size: 18px;
+    
   }
   
   h3 {
@@ -203,6 +206,13 @@
   
     .project img {
       max-width: 100%;
+    }
+
+    .project.proj-1,
+    .project.proj-2,
+    .project.proj-4,
+    .project.proj-5 {
+      margin-right: 5%;
     }
   
     .contact-container {
